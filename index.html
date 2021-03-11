@@ -3,17 +3,64 @@
 <head>
 <meta charset="utf-8">
 <title>proj6</title>
+ 
+<link href="csssource.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
     <div class="grid-container">
-  <div class="Header"></div>
-  <div class="Survey"></div>
-  <div class="YTVideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/wm4_32zd_WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h2>That time Lola almost hit Bugs Bunny.</h2></div>
-  <div class="fontone"></div>
-  <div class="fonttwo"></div>
+  <div class="Header"><h2>Ohh Hey there.</h2></div>
+  <div class="Survey">
+        
+         <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="hehe name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">A word you misspell a lot</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Like brother as borther">
+    </div>
+    <div class="row">
+      <div class="col-25">
+      </div>
+      <div class="col-75">
+        <label for="country">Best Lola</label>          
+        <select id="country" name="country">
+          <option value="australia">Space Jam Lola</option>
+          <option value="canada">Comics Lola</option>
+          <option value="usa">Looney Tunes Show Lola</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">But why?</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.. anything.. Please." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div> </div>
+  </form>
+        
+        </div>
+  <div class="YTVideo"><iframe width="560" height="315" src="https://www.youtube.com/embed/wm4_32zd_WY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><h4>That time Lola almost hit Bugs Bunny. <br>I'm just saying this is the best Lola Bunny characterization.</h4></div>
+  <div class="fontone"><h1>FONT ONE EXAMPLE. Look at this <i>fancy</i> scrawl, dang.<br>I forgot to attach the CSS and seriously almost <a href="https://www.youtube.com/watch?v=ZkibXq2_g3U">cried</a> when I was trying to get this font to show up.</h1></div>
+  <div class="fonttwo"><h3>FONT TWO EXAMPLE. YOU KNOW WHAT.. This kinda looks like- hold on. oh my god. <br><br>YOU WOULDN'T DOWNLOAD A PIZZA.</h3></div>
 </div>
+    
+
     
 </body>
 </html>
